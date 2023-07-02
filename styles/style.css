@@ -10,6 +10,20 @@
   background-blend-mode: multiply;
 }
 
+a {
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.background-tint {
+  background-color: rgba(0, 0, 0, .6);
+  background-blend-mode: multiply;
+}
+
 /* Header styles */
 
 .header {
