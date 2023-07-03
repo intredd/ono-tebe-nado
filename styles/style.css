@@ -1,17 +1,8 @@
 /* Global styles */
 
-.underline {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-.background-tint {
-  background-color: rgba(0, 0, 0, .6);
-  background-blend-mode: multiply;
-}
-
-a {
-  text-decoration: none;
+.page {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .underline {
@@ -33,6 +24,7 @@ a {
   place-items: center;
   font-size: 18px;
   font-style: normal;
+  line-height: normal;
 }
 
 .header__menu {
@@ -86,27 +78,27 @@ a {
 .cover__title {
   box-sizing: content-box;
   display: grid;
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: 0.3fr 0.4fr 0.7fr;
+  row-gap: 20px;
   align-items: start;
   font-size: 100px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.3em;
   color: #fff;
+  line-height: 1em;
 }
 
 .aligned-text {
-  line-height: 115%;
+  line-height: 1.15em;
 }
 
 .aligned-text_center {
   justify-self: center;
-  line-height: 70%;
 }
 
 .aligned-text_right {
   justify-self: end;
-  line-height: 100%;
 }
 
 .letter-spacing-extended {
@@ -131,7 +123,7 @@ a {
 
 .cover__desctiption-text {
   align-self: center;
-  word-spacing: 17.5px;
+  word-spacing: 0.8em;
 }
 
 .bet-button {
@@ -147,17 +139,16 @@ a {
 /* Lots styles */
 
 .lots {
-  min-height: 579px;
   margin: 180px 50px 90px;
 }
 
 .lots__heading {
-  min-height: 47px;
   box-sizing: content-box;
   padding-left: 40px;
   padding-bottom: 27px;
   font-size: 40px;
   font-weight: 700;
+  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -217,12 +208,12 @@ a {
   color: #000;
   font-size: 20px;
   font-weight: 400;
+  line-height: normal;
 }
 
 /* About styles */
 
 .about {
-  min-height: 487px;
   margin: 180px 50px 90px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -248,6 +239,7 @@ a {
   font-size: 40px;
   font-weight: 700;
   font-style: normal;
+  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -265,11 +257,12 @@ a {
 /* Footer styles */
 
 .footer {
-  margin: 181px 50px 90px;
+  margin: 182px 50px 90px;
   display: flex;
   justify-content: space-between;
   font-size: 18px;
   font-style: normal;
+  line-height: normal;
 }
 
 .contancts_justify_start {
